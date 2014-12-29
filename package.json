@@ -18,7 +18,7 @@
     "author": "Harry Barnard <harry@harrybarnard.com> (http://harrybarnard.com)",
     "license": "MIT",
     "dependencies": {
-        "nano": "~5.12.1",
+        "nano": "~6.0.2",
         "hoek": "~2.10.0",
         "joi": "~5.0.0",
         "boom": "~2.6.0"
