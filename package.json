@@ -1,0 +1,26 @@
+{
+    "name": "hapi-couchdb",
+    "version": "0.1.0",
+    "description": "A Hapi plugin providing a CouchDb connection.",
+    "keywords": [
+        "hapi",
+        "couchdb",
+        "nano"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harrybarnard/hapi-couchdb.git"
+    },
+    "author": "Harry Barnard <harry@harrybarnard.com> (http://harrybarnard.com)",
+    "license": "MIT",
+    "dependencies": {
+        "nano": "~5.12.1",
+        "hoek": "~2.10.0",
+        "joi": "~5.0.0",
+        "boom": "~2.6.0"
+    }
+}
