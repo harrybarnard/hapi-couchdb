@@ -26,7 +26,7 @@
             "url": "https://github.com/harrybarnard/hapi-couchdb/raw/master/LICENSE"
         }
     ],
-    "dependencies": {
+    "dependencies": { 
         "nano": "~6.0.2",
         "hoek": "~2.10.0",
         "joi": "~5.0.0",
