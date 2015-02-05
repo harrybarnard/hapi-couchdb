@@ -1,6 +1,6 @@
 {
     "name": "hapi-couchdb",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A Hapi plugin providing a CouchDb connection.",
     "homepage": "https://github.com/harrybarnard/hapi-couchdb",
     "keywords": [
