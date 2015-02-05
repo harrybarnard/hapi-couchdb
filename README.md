@@ -91,6 +91,26 @@ var CouchDb = require('hapi-couchdb').init({db: 'mycouchdb'});
 
 The configured database interface. More information available [here](https://github.com/dscape/nano#document-functions).
 
+### Db.update
+
+```javascript
+Db.update(/** document id **/ id, /** updated document **/ doc, /** callback **/ callback);
+```
+
+A document update convenience method. It will create the document in the database if it doesn't exist.
+
+Example usage:
+
+```javascript
+Db.update(id, doc, function(error, body) {
+    if(error) {
+        console.log(error);
+    } else {
+        console.log('Document Updated! Current revision:', body._rev);
+    }
+});
+```
+
 ### Nano
 
 The full Nano interface. More information available [here](https://github.com/dscape/nano#database-functions).
